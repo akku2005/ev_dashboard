@@ -1,0 +1,10 @@
+# .dockerignore
+
+# Exclude node_modules directory
+node_modules
+
+# Exclude other unnecessary directories or files
+dist
+.git
+.gitignore
+.DS_Store

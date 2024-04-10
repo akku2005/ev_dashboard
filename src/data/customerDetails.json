@@ -1,0 +1,84 @@
+[
+    {
+      "vehicleNo": "KA01MG1234",
+      "name": "Ramesh Kumar",
+      "age": 28,
+      "city": "Bangalore",
+      "status": "Active",
+      "avatar": "path/to/avatar1.jpg"
+    },
+    {
+      "vehicleNo": "MH02BF5678",
+      "name": "Suresh Patel",
+      "age": 32,
+      "city": "Mumbai",
+      "status": "Active",
+      "avatar": "path/to/avatar2.jpg"
+    },
+    {
+      "vehicleNo": "DL03AC9012",
+      "name": "Priya Singh",
+      "age": 26,
+      "city": "Delhi",
+      "status": "Inactive",
+      "avatar": "path/to/avatar3.jpg"
+    },
+    {
+      "vehicleNo": "TN04DE3456",
+      "name": "Aruna Devi",
+      "age": 35,
+      "city": "Chennai",
+      "status": "Active",
+      "avatar": "path/to/avatar4.jpg"
+    },
+    {
+      "vehicleNo": "GJ05FG7890",
+      "name": "Rajesh Shah",
+      "age": 30,
+      "city": "Ahmedabad",
+      "status": "Active",
+      "avatar": "path/to/avatar5.jpg"
+    },
+    {
+      "vehicleNo": "UP06HI1234",
+      "name": "Anjali Verma",
+      "age": 29,
+      "city": "Lucknow",
+      "status": "Inactive",
+      "avatar": "path/to/avatar6.jpg"
+    }
+    ,
+    {
+      "vehicleNo": "DL03AC9012",
+      "name": "Priya Singh",
+      "age": 26,
+      "city": "Delhi",
+      "status": "Inactive",
+      "avatar": "path/to/avatar3.jpg"
+    },
+    {
+      "vehicleNo": "TN04DE3456",
+      "name": "Aruna Devi",
+      "age": 35,
+      "city": "Chennai",
+      "status": "Active",
+      "avatar": "path/to/avatar4.jpg"
+    },
+    {
+      "vehicleNo": "GJ05FG7890",
+      "name": "Rajesh Shah",
+      "age": 30,
+      "city": "Ahmedabad",
+      "status": "Active",
+      "avatar": "path/to/avatar5.jpg"
+    },
+    {
+      "vehicleNo": "UP06HI1234",
+      "name": "Anjali Verma",
+      "age": 29,
+      "city": "Lucknow",
+      "status": "Inactive",
+      "avatar": "path/to/avatar6.jpg"
+    }
+  ]
+  

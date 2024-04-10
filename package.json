@@ -3,12 +3,35 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@coreui/react": "^4.11.1",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@hypertheme-editor/chakra-ui": "^0.1.6-rc.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "chart.js": "^4.4.2",
+    "docker": "^1.0.0",
+    "faker": "^6.6.6",
+    "formik": "^2.4.5",
+    "framer-motion": "^11.0.20",
+    "lazy": "^1.0.11",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-datepicker": "^6.6.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "react-table": "^7.8.0",
+    "react-toastify": "^10.0.5",
+    "sass": "^1.72.0",
+    "simplebar-react": "^3.2.4",
+    "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +57,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }

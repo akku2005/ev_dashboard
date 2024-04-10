@@ -1,0 +1,41 @@
+[
+    {
+      "srNo": 1,
+      "vehicleNumber": "ABC123",
+      "status": "Active",
+      "value":625
+    },
+    {
+      "srNo": 2,
+      "vehicleNumber": "XYZ789",
+      "status": "Inactive"
+    },
+    {
+      "srNo": 3,
+      "vehicleNumber": "DEF456",
+      "status": "Active"
+    },
+    {
+      "srNo": 4,
+      "vehicleNumber": "GHI789",
+      "status": "Active"
+    },
+    {
+      "srNo": 5,
+      "vehicleNumber": "JKL012",
+      "status": "Inactive"
+    }
+    ,
+    {
+      "srNo": 5,
+      "vehicleNumber": "JKL012",
+      "status": "Inactive"
+    }
+    ,
+    {
+      "srNo": 5,
+      "vehicleNumber": "JKL012",
+      "status": "Inactive"
+    }
+  ]
+  
