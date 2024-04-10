@@ -8,10 +8,10 @@ const SignIn = () => {
         <div class="grid md:grid-cols-2 gap-16 bg-gray-50 w-full sm:p-8 p-6 rounded relative">
           <div class="space-y-6 w-full">
             <div class="md:mb-16 mb-12">
-              <a href="javascript:void(0)"><img
+              <Link href="javascript:void(0)"><img
                 src={logo} alt="logo" class='w-40 inline-block' />
                 <hr className='mt-3 '></hr>
-              </a>
+              </Link>
             </div>
             <div class="space-y-10">
               <div class="flex gap-4">

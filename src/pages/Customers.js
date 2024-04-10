@@ -136,7 +136,7 @@ const Customers = () => {
 };
 
 const DashboardTable = () => {
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage] = useState(1);
   const [itemsPerPage] = useState(8);
 
   const viewDetails = (customer) => {
@@ -147,7 +147,7 @@ const DashboardTable = () => {
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = data.slice(indexOfFirstItem, indexOfLastItem);
 
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  // const  = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
     <div className="eco-ride-table">
