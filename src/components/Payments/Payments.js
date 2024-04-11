@@ -255,7 +255,7 @@ const Payments = () => {
                           fileName={`${client.customerName}_invoice.pdf`}
                         >
                           {({ blob, url, loading, error }) => (
-                            <button className="text-sm bg-slate-500 p-2 rounded-2xl text-white hover:text-gray-300 focus:outline-none">
+                            <button className="text-sm bg-green-500 p-1 rounded-md text-white hover:text-black focus:outline-none">
                               {loading
                                 ? "Loading invoice..."
                                 : "Download Invoice"}
@@ -279,7 +279,7 @@ const Payments = () => {
 
             {selectedClient && (
               <div className="fixed inset-0 flex justify-center items-center bg-black bg-opacity-50">
-                <div className="modal bg-white p-40 text-center rounded shadow-lg relative">
+                <div className="modal bg-white p-20 text-center rounded shadow-lg relative">
                   <button
                     className="absolute top-0 right-0 mt-2 mr-2 text-4xl font-bold text-gray-500 hover:text-gray-700 focus:outline-none"
                     onClick={handleCloseClick}
