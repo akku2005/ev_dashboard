@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "vehicleNo": "MH12AB1234",
+    "customerName": "Rahul Sharma",
+    "paymentType": "Credit Card"
+  },
+  {
+    "id": 2,
+    "vehicleNo": "DL09CD5678",
+    "customerName": "Priya Patel",
+    "paymentType": "Net Banking"
+  },
+  {
+    "id": 3,
+    "vehicleNo": "KA03EF9012",
+    "customerName": "Suresh Kumar",
+    "paymentType": "Debit Card"
+  },
+  {
+    "id": 4,
+    "vehicleNo": "GJ06GH3456",
+    "customerName": "Meera Singh",
+    "paymentType": "UPI"
+  },
+  {
+    "id": 5,
+    "vehicleNo": "TN01IJ7890",
+    "customerName": "Deepak Verma",
+    "paymentType": "Wallet"
+  },
+  {
+    "id": 4,
+    "vehicleNo": "GJ06GH3456",
+    "customerName": "Meera Singh",
+    "paymentType": "UPI"
+  },
+  {
+    "id": 5,
+    "vehicleNo": "TN01IJ7890",
+    "customerName": "Deepak Verma",
+    "paymentType": "Wallet"
+  },
+  {
+    "id": 4,
+    "vehicleNo": "GJ06GH3456",
+    "customerName": "Meera Singh",
+    "paymentType": "UPI"
+  },
+  {
+    "id": 5,
+    "vehicleNo": "TN01IJ7890",
+    "customerName": "Deepak Verma",
+    "paymentType": "Wallet"
+  }
+]
