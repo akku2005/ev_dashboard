@@ -31,21 +31,41 @@ const Payments = () => {
   };
 
   const monthlyOptions = {
+    responsive: true,
+    indexAxis: "x",
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: false,
+      },
+    },
     scales: {
-      xAxes: [{
-        ticks: {
-          beginAtZero: true,
+      y: {
+        beginAtZero: true,
+        grid: {
+          display: false,
         },
-        gridLines: {
-          display: false // Remove x-axis grid lines
-        }
-      }],
-      yAxes: [{
-        gridLines: {
-          display: false // Remove y-axis grid lines
-        }
-      }]
-    }
+      },
+      x: {
+        grid: {
+          display: false,
+        },
+      },
+    },
+    layout: {
+      padding: {
+        top: 10, 
+      },
+    },
+    elements: {
+      bar: {
+        borderWidth: 1, 
+        borderRadius: 12, 
+        barThickness: 8,
+      },
+    },
   };
 
   // Sample data for daily and weekly payments
@@ -71,13 +91,13 @@ const Payments = () => {
         pointHoverBorderWidth: 2,
         pointRadius: 1,
         pointHitRadius: 10,
-        data: [65, 59, 80, 81, 56, 55, 40],
+        data: [1200, 59, 808, 81, 56, 55, 40],
       },
       {
         label: "Weekly Payments",
         backgroundColor: "rgba(255, 159, 64, 0.5)",
         borderColor: "rgba(255, 159, 64, 1)",
-        borderWidth: 1,
+        borderWidth: 3,
         hoverBackgroundColor: "rgba(255, 159, 64, 0.7)",
         hoverBorderColor: "rgba(255, 159, 64, 1)",
         data: [500, 550, 600, 650, 700, 750, 800],
@@ -86,21 +106,29 @@ const Payments = () => {
   };
 
   const dailyOptions = {
+    responsive: true,
+    indexAxis: "x",
+    plugins: {
+      legend: {
+        display: false,
+      },
+      title: {
+        display: false,
+      },
+    },
     scales: {
-      xAxes: [{
-        ticks: {
-          beginAtZero: true,
+      y: {
+        beginAtZero: true,
+        grid: {
+          display: false,
         },
-        gridLines: {
-          display: false // Remove x-axis grid lines
-        }
-      }],
-      yAxes: [{
-        gridLines: {
-          display: false // Remove y-axis grid lines
-        }
-      }]
-    }
+      },
+      x: {
+        grid: {
+          display: false,
+        },
+      },
+    },
   };
 
   return (
@@ -110,7 +138,7 @@ const Payments = () => {
         <div className="bar">
           <TopNavbar />
         </div>
-        <section className="grid grid-cols-2 gap-6 mt-5">
+        <section className="grid grid-cols-2 gap-6 mt-8">
           <div className="transaction">
             {/* Total Income section */}
             <div className="total-income flex items-center gap-10">
@@ -136,18 +164,23 @@ const Payments = () => {
               </div>
             </div>
             {/* Other sections */}
-            <div className="mt-5">
+            <div className="mt-5 bg-gray-200 p-5 rounded-3xl h-90 shadow-xl hover:shadow-2xl">
               {/* Monthly Payments Chart */}
               <h2>Monthly Payments</h2>
+              <div className="text-black  mt-4">
               <Bar data={monthlyData} options={monthlyOptions} />
+              </div>
+              
             </div>
             {/* Daily and Weekly Payments Chart */}
-            <div className="mt-5">
+            <div className="mt-5 bg-gray-200 p-5 rounded-3xl h-90 mb-5 shadow-xl hover:shadow-2xl">
               <h2>Daily and Weekly Payments</h2>
               <Line data={dailyData} options={dailyOptions} />
             </div>
           </div>
-          <div className="payments-details">sahu</div>
+          <div className="payments-details">
+            client details
+          </div>
         </section>
       </main>
     </div>
