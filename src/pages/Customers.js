@@ -51,8 +51,8 @@ const Customers = () => {
           <TopNavbar />
         </div>
         <section className="flex gap-6 mt-6 ml-5 ">
-          <div className="left-box flex-1">
-            <div className="flex flex-wrap gap-6">
+          <div className="left-box ">
+            <div className="flex flex-wrap gap-auto">
               <WidgetItem
                 heading="Online Customers"
                 value={customers.length}
@@ -140,7 +140,7 @@ const DashboardTable = () => {
   const [itemsPerPage] = useState(8);
 
   const viewDetails = (customer) => {
-    console.log(customer); 
+    console.log(customer);
   };
 
   const indexOfLastItem = currentPage * itemsPerPage;

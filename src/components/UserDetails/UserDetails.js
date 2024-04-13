@@ -175,7 +175,7 @@ const UserDetails = () => {
             </div>
           </div>
           <div className="user-details-section">
-            <div className="bg-gray-200 p-7 rounded-md  flex-col items-center justify-center h-fit">
+            <div className="bg-lime-500 p-7 rounded-md  flex-col items-center justify-center h-fit">
               <h2 className="text-gray-800 font-semibold font-sans text-2xl mb-4">
                 Ride Details
               </h2>

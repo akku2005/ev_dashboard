@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { AiFillFileText } from "react-icons/ai";
 import { HiMenuAlt4 } from "react-icons/hi";
-import {
-  RiDashboardFill,
-  RiShoppingBag3Fill,
-} from "react-icons/ri";
+import { RiDashboardFill, RiShoppingBag3Fill } from "react-icons/ri";
 import { Link, useLocation } from "react-router-dom";
-import companyLogo from "../../../assets/images/name192.png"
+import { MdElectricBike } from "react-icons/md";
+import tripIcon from "../../../assets/icons/download.png";
+import companyLogo from "../../../assets/images/name192.png";
+import { MdSettingsSuggest } from "react-icons/md";
+import { FaUserSecret } from "react-icons/fa6";
 
 const AdminSidebar = () => {
   const location = useLocation();
@@ -49,10 +50,10 @@ const AdminSidebar = () => {
         }
       >
         <div className="w-52 ">
-        <Link to="/admin/dashboard">
-        <img src={companyLogo} alt="company-logo"/>
-        </Link>
-        <hr className="mt-2"/>
+          <Link to="/admin/dashboard">
+            <img src={companyLogo} alt="company-logo" />
+          </Link>
+          <hr className="mt-2" />
         </div>
         <DivOne location={location} />
 
@@ -85,6 +86,32 @@ const DivOne = ({ location }) => (
         url="/admin/payments"
         text="Payments"
         Icon={AiFillFileText}
+        location={location}
+      />
+      <Li
+        url="/admin/vehicle"
+        text="Vehicle"
+        Icon={MdElectricBike}
+        location={location}
+      />
+      <Li
+        url="/admin/trips" // Update URL for trips
+        text="Trips"
+        Icon={() => (
+          <img src={tripIcon} alt="Trips" style={{ width: "20px" }} />
+        )} // Use tripIcon
+        location={location}
+      />
+      <Li
+        url="/admin/captain"
+        text="Captain"
+        Icon={FaUserSecret}
+        location={location}
+      />
+      <Li
+        url="/admin/analytics"
+        text="Analytics"
+        Icon={MdSettingsSuggest}
         location={location}
       />
     </ul>

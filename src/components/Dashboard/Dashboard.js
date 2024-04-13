@@ -3,7 +3,7 @@ import AdminSidebar from "./SideNavbar/AdminSidebar";
 import { HiTrendingUp, HiTrendingDown } from "react-icons/hi";
 import "../../styles/app.scss";
 import { BarChart } from "../Chats/Charts";
-import Graph from "../Chats/Graph"
+import Graph from "../Chats/Graph";
 import TopNavbar from "./TopNavbar";
 import Table from "../Table/DashboardTable";
 import revenueImage1 from "../../assets/images/revenue.png";
@@ -36,13 +36,13 @@ const Dashboard = () => {
             image={revenueImage2}
           />
           <Link to="/admin/customer">
-          <WidgetItem
-            percent={40}
-            amount={true}
-            value={340000}
-            heading="Today’s new use"
-            image={revenueImage3}
-          />
+            <WidgetItem
+              percent={40}
+              amount={true}
+              value={340000}
+              heading="Today’s new use"
+              image={revenueImage3}
+            />
           </Link>
         </section>
         <section className="graph-container">
@@ -61,33 +61,21 @@ const Dashboard = () => {
               <h1>Today’s Active Users</h1>
               <p>(+23) than last week</p>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                <div className="bg-white rounded-lg shadow-xl p-4">
-                  
-                </div>
-                <div className="bg-white rounded-lg shadow-xl p-4">
-                  
-                </div>
-                <div className="bg-white rounded-lg shadow-xl p-4">
-                  
-                </div>
-                <div className="bg-white rounded-lg shadow-xl p-4">
-                  
-                </div>
+                <div className="bg-white rounded-lg shadow-xl p-4">main</div>
+                <div className="bg-white rounded-lg shadow-xl p-4"></div>
+                <div className="bg-white rounded-lg shadow-xl p-4"></div>
+                <div className="bg-white rounded-lg shadow-xl p-4"></div>
               </div>
             </div>
           </div>
           <div className="text-black">
-            <Graph/>
+            <Graph />
           </div>
         </section>
         <section className="transaction-container">
-        
-        <Table/>
-        <MapLocation/>
-        <div className="gender-chart">
-           
-        </div>
-
+          <Table />
+          <MapLocation />
+          <div className="gender-chart"></div>
         </section>
       </main>
     </div>
