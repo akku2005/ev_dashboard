@@ -1,11 +1,15 @@
-import * as React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import routes from './routes';
+import * as React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
+import routes from "./routes";
 import { Suspense, lazy } from "react";
 import Loader from "./components/Loader";
 
-
-const SignIn = lazy (()=> import("./auth/Login/AuthLogin"))
+const SignIn = lazy(() => import("./auth/Login/AuthLogin"));
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = React.useState(false);
@@ -16,8 +20,8 @@ function App() {
   };
 
   return (
-      <Router>
-        <Suspense fallback={<Loader/>}>
+    <Router>
+      <Suspense fallback={<Loader />}>
         <Routes>
           {/* Redirect to login page if not authenticated */}
           {!isLoggedIn && <Route path="/" element={<Navigate to="/login" />} />}
@@ -28,13 +32,9 @@ function App() {
           {/* Login route */}
           <Route path="/login" element={<SignIn onLogin={handleLogin} />} />
         </Routes>
-        </Suspense>
-      </Router>
-    
+      </Suspense>
+    </Router>
   );
 }
 
 export default App;
-
-
-
