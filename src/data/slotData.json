@@ -1,0 +1,59 @@
+{
+  "slots": {
+    "A Slot": [
+      { "id": 1, "available": true },
+      { "id": 2, "unavailable": false },
+      { "id": 3, "available": false }
+    ],
+    "B Slot": [
+      { "id": 1, "available": false },
+      { "id": 2, "available": false },
+      { "id": 3, "available": true }
+    ],
+    "C Slot": [
+      { "id": 1, "available": true },
+      { "id": 2, "available": true },
+      { "id": 3, "available": true }
+    ],
+    "D Slot": [
+      { "id": 1, "available": false },
+      { "id": 2, "available": true },
+      { "id": 3, "available": true }
+    ],
+    "E Slot": [
+      { "id": 1, "available": false },
+      { "id": 2, "available": false },
+      { "id": 3, "available": true }
+    ],
+    "F Slot": [
+      { "id": 1, "available": true },
+      { "id": 2, "available": false },
+      { "id": 3, "available": true }
+    ],
+    "G Slot": [
+      { "id": 1, "available": true },
+      { "id": 2, "available": false },
+      { "id": 3, "available": true }
+    ],
+    "H Slot": [
+      { "id": 1, "available": true },
+      { "id": 2, "available": false },
+      { "id": 3, "available": true }
+    ],
+    "I Slot": [
+      { "id": 1, "available": true },
+      { "id": 2, "available": false },
+      { "id": 3, "available": true }
+    ],
+    "J Slot": [
+      { "id": 1, "available": true },
+      { "id": 2, "available": false },
+      { "id": 3, "available": true }
+    ],
+    "K Slot": [
+      { "id": 1, "available": true },
+      { "id": 2, "available": false },
+      { "id": 3, "available": true }
+    ]
+  }
+}
